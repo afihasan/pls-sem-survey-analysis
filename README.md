@@ -24,13 +24,15 @@ Key features:
 ```text
 ├── data/
 │   └── README.md            # Instructions for adding your own data
-├── scripts/
-│   └── pls_sem_analysis.R   # Main analysis script
+├── R/
+│   ├── setup.R        # install and load packages
+│   ├── models.R       # measurement + structural models
+│   ├── analysis.R     # runs analysis (can source models.R)
 ├── outputs/
 │   ├── plots/               # PNG/PDF of SEM diagrams and diagnostics
 │   └── tables/              # CSV or markdown exports of results
 ├── .gitignore               # Exclude raw data and environment files
-└── README.md                # This file
+└── README.md                
 ```
 
 ## 3. Data Handling
