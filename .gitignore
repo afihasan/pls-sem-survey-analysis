@@ -1,0 +1,4 @@
+# Ignore raw data files
+data/raw/
+data/*secret*
+data/*confidential*
