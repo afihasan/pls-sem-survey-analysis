@@ -29,8 +29,7 @@ Key features:
 │   ├── models.R       # measurement + structural models
 │   ├── analysis.R     # runs analysis (can source models.R)
 ├── outputs/
-│   ├── plots/               # PNG/PDF of SEM diagrams and diagnostics
-│   └── tables/              # CSV or markdown exports of results
+│   ├── plot.png/pdf            # PNG/PDF of SEM diagrams and diagnostics
 ├── .gitignore               # Exclude raw data and environment files
 └── README.md                
 ```
