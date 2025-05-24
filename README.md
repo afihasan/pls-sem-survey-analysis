@@ -52,20 +52,16 @@ remotes::install_github("afihasan/seminrlocal")
 ```
 
 ## 5. Running the Analysis
-
+````
 1. Clone the repository:
-
-   ```bash
-   ```
-
 git clone [https://github.com/afihasan/pls-sem-survey-analysis.git](https://github.com/afihasan/pls-sem-survey-analysis.git)
 cd pls-sem-survey-analysis
 
-````
 2. Add your cleaned survey CSV to `data/clean_survey.csv`.
+
 3. Open `scripts/pls_sem_analysis.R` in RStudio or your editor.
+
 4. Source or run the script:
-```r
 source("scripts/pls_sem_analysis.R")
 ````
 
