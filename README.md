@@ -62,6 +62,7 @@ cd pls-sem-survey-analysis
 3. Open `scripts/pls_sem_analysis.R` in RStudio or your editor.
 
 4. Source or run the script:
+```r
 source("scripts/pls_sem_analysis.R")
 ````
 
