@@ -39,7 +39,7 @@ Key features:
 
 * **Data folder:** The `data/` directory is for storing a cleaned copy of your CSV (not the raw). Place your file as `data/clean_survey.csv`.
 * **Sensitive data:** DO NOT commit raw or sensitive files. Use `.gitignore` to exclude anything under `data/raw/`.
-* **README in data/:** Explains file naming conventions and where to obtain or generate the CSV if it’s private.
+* **README in data/:** Explains file naming conventions
 
 ## 4. Dependencies
 
