@@ -36,9 +36,8 @@ print(results$full$summary)
 print(results$full$summary_boot)
 
 # Reliability plot
-par(mfrow = c(1,2))
 plot(results$full$summary$reliability, main = "Composite Reliability")
-browse_plot(results$full$boot)
+browse_plot(results$full$boot) # takes you to Edotor.net where you can customize how your path diagram looks like
 
 # Predictive assessment
 pred <- predict_pls(
