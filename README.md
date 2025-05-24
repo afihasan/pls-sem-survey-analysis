@@ -64,7 +64,9 @@ cd pls-sem-survey-analysis
 
 4. Source or run the script:
 ```r
-source("scripts/pls_sem_analysis.R")
+source("R/setup.R")      # 1. Install and load all required packages
+source("R/models.R")     # 2. Define measurement and structural models (optional if analysis.R does this)
+source("R/analysis.R")   # 3. Run the analysis and output results
 ````
 
 5. Review outputs in the `outputs/` folder.
