@@ -13,7 +13,7 @@ This repository contains a streamlined PLS-SEM workflow implemented in R using t
 Key features:
 
 * Data preprocessing and factor recoding
-* Measurement model revisions (indicator selection)
+* Measurement model (indicator selection)
 * Structural model specification and estimation
 * Bootstrapping for path significance
 * Reliability and predictive assessments
