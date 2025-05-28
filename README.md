@@ -78,6 +78,8 @@ source("R/analysis.R")   # 3. Run the analysis and output results
 * **R² & f²:** Assess explanatory power and effect sizes.
 * **Mediation Tests:** Evaluate indirect vs direct effects.
 
+*Refer to result-interpretation.md
+
 ## 7. Contributing and License
 
 This is a personal analysis project. If you adapt or extend it, please credit the author. For commercial usage or collaboration, contact Ahmad Lutfi Che Hasan.
